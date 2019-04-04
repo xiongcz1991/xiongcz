@@ -7,6 +7,10 @@
   <groupId>com.xiongcz.demo.parent</groupId>
   <artifactId>parent</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>zoo</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>parent</name>
   <!-- FIXME change it to the project's website -->

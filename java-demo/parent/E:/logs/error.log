@@ -1,0 +1,8 @@
+2019-04-13 11:36:20  [ main-EventThread:89 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2019-04-13 11:37:50  [ main-EventThread:69 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)

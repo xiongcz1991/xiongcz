@@ -1,0 +1,52 @@
+2019-04-13 11:36:20  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-04-13 11:36:20  [ main:2 ] - [ INFO ]  Client environment:host.name=xiongcz-pc
+2019-04-13 11:36:20  [ main:2 ] - [ INFO ]  Client environment:java.version=11.0.2
+2019-04-13 11:36:20  [ main:2 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2019-04-13 11:36:20  [ main:4 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-11-openjdk-11.0.2.7-0.fc29.x86_64
+2019-04-13 11:36:20  [ main:4 ] - [ INFO ]  Client environment:java.class.path=/home/xiongcz/repo/xiongcz/java-demo/parent/zoo/target/classes:/home/xiongcz/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/xiongcz/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/xiongcz/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/xiongcz/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/xiongcz/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/xiongcz/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2019-04-13 11:36:20  [ main:5 ] - [ INFO ]  Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2019-04-13 11:36:20  [ main:5 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2019-04-13 11:36:20  [ main:5 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2019-04-13 11:36:20  [ main:5 ] - [ INFO ]  Client environment:os.name=Linux
+2019-04-13 11:36:20  [ main:6 ] - [ INFO ]  Client environment:os.arch=amd64
+2019-04-13 11:36:20  [ main:6 ] - [ INFO ]  Client environment:os.version=5.0.5-200.fc29.x86_64
+2019-04-13 11:36:20  [ main:6 ] - [ INFO ]  Client environment:user.name=xiongcz
+2019-04-13 11:36:20  [ main:6 ] - [ INFO ]  Client environment:user.home=/home/xiongcz
+2019-04-13 11:36:20  [ main:7 ] - [ INFO ]  Client environment:user.dir=/home/xiongcz/repo/xiongcz/java-demo/parent
+2019-04-13 11:36:20  [ main:8 ] - [ INFO ]  Initiating client connection, connectString=127.0.0.1 sessionTimeout=120 watcher=null
+2019-04-13 11:36:20  [ main:13 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2019-04-13 11:36:20  [ main-SendThread(127.0.0.1:2181):64 ] - [ INFO ]  Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-04-13 11:36:20  [ main-SendThread(127.0.0.1:2181):73 ] - [ INFO ]  Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-04-13 11:36:20  [ main-SendThread(127.0.0.1:2181):75 ] - [ DEBUG ]  Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+2019-04-13 11:36:20  [ main-SendThread(127.0.0.1:2181):84 ] - [ INFO ]  Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000072d0660007, negotiated timeout = 4000
+2019-04-13 11:36:20  [ main-EventThread:89 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2019-04-13 11:36:20  [ main-SendThread(127.0.0.1:2181):97 ] - [ DEBUG ]  Reading reply sessionid:0x1000072d0660007, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,21,0  request:: '/name,#78696f6e67637a,v{s{31,s{'world,'anyone}}},1  response:: '/name 
+2019-04-13 11:37:50  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-04-13 11:37:50  [ main:4 ] - [ INFO ]  Client environment:host.name=xiongcz-pc
+2019-04-13 11:37:50  [ main:4 ] - [ INFO ]  Client environment:java.version=11.0.2
+2019-04-13 11:37:50  [ main:4 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2019-04-13 11:37:50  [ main:6 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-11-openjdk-11.0.2.7-0.fc29.x86_64
+2019-04-13 11:37:50  [ main:7 ] - [ INFO ]  Client environment:java.class.path=/home/xiongcz/repo/xiongcz/java-demo/parent/zoo/target/classes:/home/xiongcz/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/xiongcz/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/xiongcz/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/xiongcz/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/xiongcz/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/xiongcz/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2019-04-13 11:37:50  [ main:7 ] - [ INFO ]  Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2019-04-13 11:37:50  [ main:7 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2019-04-13 11:37:50  [ main:8 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2019-04-13 11:37:50  [ main:8 ] - [ INFO ]  Client environment:os.name=Linux
+2019-04-13 11:37:50  [ main:8 ] - [ INFO ]  Client environment:os.arch=amd64
+2019-04-13 11:37:50  [ main:9 ] - [ INFO ]  Client environment:os.version=5.0.5-200.fc29.x86_64
+2019-04-13 11:37:50  [ main:9 ] - [ INFO ]  Client environment:user.name=xiongcz
+2019-04-13 11:37:50  [ main:9 ] - [ INFO ]  Client environment:user.home=/home/xiongcz
+2019-04-13 11:37:50  [ main:10 ] - [ INFO ]  Client environment:user.dir=/home/xiongcz/repo/xiongcz/java-demo/parent
+2019-04-13 11:37:50  [ main:11 ] - [ INFO ]  Initiating client connection, connectString=127.0.0.1 sessionTimeout=120 watcher=null
+2019-04-13 11:37:50  [ main:17 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2019-04-13 11:37:50  [ main-SendThread(127.0.0.1:2181):48 ] - [ INFO ]  Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-04-13 11:37:50  [ main-SendThread(127.0.0.1:2181):55 ] - [ INFO ]  Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-04-13 11:37:50  [ main-SendThread(127.0.0.1:2181):57 ] - [ DEBUG ]  Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+2019-04-13 11:37:50  [ main-SendThread(127.0.0.1:2181):62 ] - [ INFO ]  Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000072d0660008, negotiated timeout = 4000
+2019-04-13 11:37:50  [ main-EventThread:69 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2019-04-13 11:37:50  [ main-SendThread(127.0.0.1:2181):74 ] - [ DEBUG ]  Reading reply sessionid:0x1000072d0660008, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,24,0  request:: '/name,#78696f6e67637a,v{s{31,s{'world,'anyone}}},0  response:: '/name 
